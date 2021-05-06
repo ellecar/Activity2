@@ -1,0 +1,28 @@
+<ion-app>
+  <ion-router-outlet>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        
+        <ion-tab-button routerLinkActive="tab-selected" routerLink="/profile" class="ios" tab="person">
+          <ion-icon name="person-sharp"></ion-icon>
+          <ion-label>Profile</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button routerLinkActive="tab-selected" routerLink="/gallery" class="ios" tab="gallery">
+          <ion-icon name="image"></ion-icon>
+          <ion-label>Gallery</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button routerLinkActive="tab-selected" routerLink="/home" class="ios" tab="home">
+          <ion-icon name="list"></ion-icon>
+          <ion-label>Contacts</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button routerLinkActive="tab-selected" routerLink="/make-appointment" class="ios" tab="make-appointment">
+          <ion-icon name="add-circle"></ion-icon>
+          <ion-label>Add Contacts</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-router-outlet>
+</ion-app>
